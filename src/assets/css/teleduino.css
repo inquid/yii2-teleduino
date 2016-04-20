@@ -1,0 +1,15 @@
+#yii-teleduino code {
+  display: block;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: #F9F9F9;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+#yii-teleduino #teleduino-method-description {
+  display: none;
+}
+#yii-teleduino #teleduino-response-container h3 {
+  margin-top: 0;
+}

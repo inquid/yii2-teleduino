@@ -1,0 +1,19 @@
+{
+  "name": "gogl92/yii2-teleduino",
+  "description": "Visual interface Module for https://www.teleduino.org/",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","teleduino","arduino","api"],
+  "license": "GPL-2.0",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0",
+		"mashape/unirest-php": "2.6.2",
+		"yiisoft/yii2-bootstrap": "*",
+		"vova07/yii2-select2-widget": "0.1.2"
+    },
+	"autoload": {
+		"psr-4": {
+			"gogl92\\yii2-teleduino\\": "src"
+		}
+	}
+}
