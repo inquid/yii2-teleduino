@@ -182,6 +182,15 @@ Here are few examples of invoking some methods:
 
 3. `./yii teleduino/api/getAllInputs --apiEndpoint="http://example.com" --apiKey="alternate-key"` - get the input values of all the digital and analog pins, using the explicit API Edpoint and Key.
 
+
+## Sponsor and Original Idea
+
+SUOI Develop
+Luis Armando González
+* Email: luisarmando1234@gmail.com
+* Twitter: gogl92
+
+
 ## Author
 
 Andriy Kmit'
