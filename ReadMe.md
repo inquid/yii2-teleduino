@@ -23,7 +23,7 @@ or add
 ```
 
 to the require section of your `composer.json` file.
-```
+
 
 * Declare new module ID `teleduino` in the modules property of the application. Use the following application configuration in the file `config/web.php`:
 ```php
