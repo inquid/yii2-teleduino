@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist suoi/yii2-teleduino "*"
+php composer.phar require --prefer-dist gogl92/yii2-teleduino "*"
 ```
 
 or add
 
 ```
-"suoi/yii2-teleduino": "*"
+"gogl92/yii2-teleduino": "*"
 ```
 
 to the require section of your `composer.json` file.
