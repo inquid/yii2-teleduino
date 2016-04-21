@@ -1,7 +1,7 @@
 <?php
 
-use madand\teleduino\Asset;
-use madand\teleduino\models\ApiOptionsForm;
+use gogl92\teleduino\Asset;
+use gogl92\teleduino\models\ApiOptionsForm;
 use yii\bootstrap\ActiveForm;
 use yii\bootstrap\Button;
 use yii\helpers\Html;

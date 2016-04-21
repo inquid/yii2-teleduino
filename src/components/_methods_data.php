@@ -1,13 +1,13 @@
 <?php
 /**
  * This file contains configuration data about all Teleduino API methods.
- * It is required by the class {@link \madand\teleduino\components\Api}.
+ * It is required by the class {@link \gogl92\teleduino\components\Api}.
  *
  * @author Andriy Kmit' <dev@madand.net>
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-use madand\teleduino\helpers\TeleduinoHelper;
+use gogl92\teleduino\helpers\TeleduinoHelper;
 
 /**
  * [

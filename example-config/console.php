@@ -4,7 +4,7 @@
 // These parameters are useful for console command, since if set, you can omit setting
 // corresponding options in the command line.
 Yii::$container->set(
-    \madand\teleduino\components\Api::className(),
+    \gogl92\teleduino\components\Api::className(),
     [
         'apiEndpoint'=>'https://my-endpoint.com',
         'apiKey'=>'00000000000000000000000000000000',
@@ -26,7 +26,7 @@ return [
         'gii' => 'yii\gii\Module',
         // *** Added teleduino module config here: *** //
         'teleduino'=>[
-            'class'=>'madand\teleduino\Module',
+            'class'=>'gogl92\teleduino\Module',
         ],
     ],
     'components' => [

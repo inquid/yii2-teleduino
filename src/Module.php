@@ -2,8 +2,8 @@
 
 namespace madand\teleduino;
 
-use madand\teleduino\components\Api;
-use madand\teleduino\console\HelpController;
+use gogl92\teleduino\components\Api;
+use gogl92\teleduino\console\HelpController;
 use yii\base\InvalidConfigException;
 use Yii;
 

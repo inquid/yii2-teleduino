@@ -1,5 +1,5 @@
 <?php
-use madand\teleduino\models\Request;
+use gogl92\teleduino\models\Request;
 use yii\bootstrap\ActiveForm;
 use yii\bootstrap\Button;
 use yii\helpers\Html;

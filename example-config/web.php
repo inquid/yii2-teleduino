@@ -9,7 +9,7 @@ $config = [
     'modules' => [
         // *** Added teleduino module config here: *** //
         'teleduino' => [
-            'class' => 'madand\teleduino\Module',
+            'class' => 'gogl92\teleduino\Module',
             'apikeys' => [
                 [
                     'key' => '00000000000000000000000000000000',

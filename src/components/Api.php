@@ -1,9 +1,9 @@
 <?php
 
-namespace madand\teleduino\components;
+namespace gogl92\teleduino\components;
 
-use madand\teleduino\models\Request;
-use madand\teleduino\models\Response;
+use gogl92\teleduino\models\Request;
+use gogl92\teleduino\models\Response;
 use yii\base\Component;
 use yii\helpers\ArrayHelper;
 

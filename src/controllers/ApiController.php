@@ -1,9 +1,9 @@
 <?php
 
-namespace madand\teleduino\controllers;
+namespace gogl92\teleduino\controllers;
 
-use madand\teleduino\models\ApiOptionsForm;
-use madand\teleduino\Module;
+use gogl92\teleduino\models\ApiOptionsForm;
+use gogl92\teleduino\Module;
 use yii\bootstrap\BootstrapAsset;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;

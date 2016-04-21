@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 /**
  * Class Asset
  *
- * @package madand\teleduino\assets
+ * @package gogl92\teleduino\assets
  * @author Andriy Kmit' <dev@madand.net>
  */
 class Asset extends AssetBundle

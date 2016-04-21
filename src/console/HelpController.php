@@ -1,9 +1,9 @@
 <?php
 
-namespace madand\teleduino\console;
+namespace gogl92\teleduino\console;
 
-use madand\teleduino\commands\ApiController;
-use madand\teleduino\components\Api;
+use gogl92\teleduino\commands\ApiController;
+use gogl92\teleduino\components\Api;
 use Yii;
 use yii\base\Application;
 use yii\console\Controller;
@@ -14,7 +14,7 @@ use yii\helpers\Inflector;
 /**
  * Class HelpController
  *
- * @package madand\teleduino\commands
+ * @package gogl92\teleduino\commands
  * @author Andriy Kmit' <dev@madand.net>
  */
 class HelpController extends \yii\console\controllers\HelpController

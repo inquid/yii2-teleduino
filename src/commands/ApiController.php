@@ -1,11 +1,11 @@
 <?php
 
-namespace madand\teleduino\commands;
+namespace gogl92\teleduino\commands;
 
 use Exception;
-use madand\teleduino\console\ConsoleAction;
-use madand\teleduino\models\Request;
-use madand\teleduino\Module;
+use gogl92\teleduino\console\ConsoleAction;
+use gogl92\teleduino\models\Request;
+use gogl92\teleduino\Module;
 use Yii;
 use yii\base\UnknownPropertyException;
 use yii\console\Controller;
@@ -33,7 +33,7 @@ class ApiController extends Controller
     private $allowedApiOptions = ['apiEndpoint', 'apiKey', 'userAgent', 'sslVerifyPeer'];
 
     /**
-     * @var \madand\teleduino\components\Api
+     * @var \gogl92\teleduino\components\Api
      */
     private $api;
 

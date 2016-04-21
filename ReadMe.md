@@ -31,7 +31,7 @@ return [
     ......
     'modules'=>[
        'teleduino'=>[
-           'class' => 'madand\teleduino\Module',
+           'class' => 'gogl92\teleduino\Module',
            'apiKeys'=>[
                [
                    'key'=>'00000000000000000000000000000000',
@@ -63,7 +63,7 @@ In this example each option is assigned with its respective default value.
 <?php
 
 Yii::$container->set(
-    \madand\teleduino\components\Api::className(),
+    \gogl92\teleduino\components\Api::className(),
     [
         // Default API Endpoint (Request URL).
         // You can override this in the web interface "API Options" form.
@@ -142,7 +142,7 @@ Resulting configuration should resemble the following:
 <?php
 
 Yii::$container->set(
-    \madand\teleduino\components\Api::className(),
+    \gogl92\teleduino\components\Api::className(),
     [
         // Default endpoint URL. Will be used, if no --apiEndpoint was specified in the command line.
         'apiEndpoint' => 'https://us01.proxy.teleduino.org/api/1.0/328.php',
@@ -158,7 +158,7 @@ $config = [
     'bootstrap' => ['teleduino'],
     'modules'=>[
         'teleduino'=>[
-            'class' => 'madand\teleduino\Module',
+            'class' => 'gogl92\teleduino\Module',
         ],
     ],
     ......

@@ -1,6 +1,6 @@
 <?php
 
-namespace madand\teleduino\helpers;
+namespace gogl92\teleduino\helpers;
 
 use yii\base\Object;
 

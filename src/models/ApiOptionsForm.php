@@ -1,6 +1,6 @@
 <?php
 
-namespace madand\teleduino\models;
+namespace gogl92\teleduino\models;
 
 use yii\base\Model;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace madand\teleduino\console;
+namespace gogl92\teleduino\console;
 
-use madand\teleduino\commands\ApiController;
-use madand\teleduino\components\Api;
-use madand\teleduino\models\Request;
-use madand\teleduino\Module;
+use gogl92\teleduino\commands\ApiController;
+use gogl92\teleduino\components\Api;
+use gogl92\teleduino\models\Request;
+use gogl92\teleduino\Module;
 use yii\base\Action;
 use Yii;
 use yii\console\Controller;
@@ -14,7 +14,7 @@ use yii\helpers\Console;
 /**
  * Class ConsoleAction
  *
- * @package madand\teleduino\components
+ * @package gogl92\teleduino\components
  * @author Andriy Kmit' <dev@madand.net>
  */
 class ConsoleAction extends Action
