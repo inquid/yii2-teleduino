@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist gogl92/yii2-teleduino "*"
+php composer.phar require --prefer-dist inquid/yii2-teleduino "*"
 ```
 
 or add
 
 ```
-"gogl92/yii2-teleduino": "*"
+"inquid/yii2-teleduino": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ return [
     ......
     'modules'=>[
        'teleduino'=>[
-           'class' => 'gogl92\teleduino\Module',
+           'class' => 'inquid\teleduino\Module',
            'apiKeys'=>[
                [
                    'key'=>'00000000000000000000000000000000',
@@ -63,7 +63,7 @@ In this example each option is assigned with its respective default value.
 <?php
 
 Yii::$container->set(
-    \gogl92\teleduino\components\Api::className(),
+    \inquid\teleduino\components\Api::className(),
     [
         // Default API Endpoint (Request URL).
         // You can override this in the web interface "API Options" form.
@@ -142,7 +142,7 @@ Resulting configuration should resemble the following:
 <?php
 
 Yii::$container->set(
-    \gogl92\teleduino\components\Api::className(),
+    \inquid\teleduino\components\Api::className(),
     [
         // Default endpoint URL. Will be used, if no --apiEndpoint was specified in the command line.
         'apiEndpoint' => 'https://us01.proxy.teleduino.org/api/1.0/328.php',
@@ -158,7 +158,7 @@ $config = [
     'bootstrap' => ['teleduino'],
     'modules'=>[
         'teleduino'=>[
-            'class' => 'gogl92\teleduino\Module',
+            'class' => 'inquid\teleduino\Module',
         ],
     ],
     ......
